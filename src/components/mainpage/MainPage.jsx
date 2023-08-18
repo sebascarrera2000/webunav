@@ -42,7 +42,7 @@ function MainPage() {
             className="mainchild"
             >
           <div className="textup">
-            <h1> Hola 👋 ! Binevenido a  UMNAV </h1>
+            <h1> Hola 👋 ! Bienvenido a  UMNAV </h1>
             <h5> Univesidad Mariana Navigation</h5>
           <p className='textoMainp'>
                 Es la guia&nbsp;   
