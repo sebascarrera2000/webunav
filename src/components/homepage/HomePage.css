@@ -1,0 +1,97 @@
+
+
+.background{
+    background-image: url(https://cdn.discordapp.com/attachments/1141474429990359161/1141576512282312755/Diseno_sin_titulo_3.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    position: fixed; 
+}
+
+.homepageS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  .content-home {
+    background-color: white;
+    flex: 1;
+    margin-right: 5%;
+    margin-left: 2%;
+    text-align: center;  
+    padding-bottom: 10px;  
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .titleh {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #46c1f2; /* Azul principal */
+  }
+  
+  .descriptionh {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #333333; /* Texto gris oscuro */
+  }
+  
+  .explore-button {
+    background-color: #46c1f2;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: #369dc7;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+    padding-right:2% ;
+  }
+  
+  .university-image {
+  
+    max-width: 60vw;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  /* Media queries para dispositivos pequeños */
+  @media (max-width: 768px) {
+    .homepageS {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content-home {
+      margin-top: 30%;
+      margin-bottom: 10%;
+      width: 80%;
+      height: 40%;
+    }
+  
+    .explore-button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  
+    .university-image {
+        height: 300px;
+    }
+  }
+  

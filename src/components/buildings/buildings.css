@@ -1,0 +1,59 @@
+
+
+.buildcontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background-color: #eeeeee;
+  flex-direction: row;
+}
+
+
+
+
+.floor {
+  float: left;
+}
+.pannel {
+  background: linear-gradient(-45deg,#009ada,#396eaf,#27509b);
+  margin: 0 auto;
+  width: 246px;
+  padding: 25px 5px;
+  border: 4px outset rgba(255,255,255,0.2);
+}
+.pannel button,
+.floor button {
+  cursor: pointer;
+  border: none; 
+  outline: 0;
+  border-radius: 50%;
+  width: 60px; 
+  height: 60px;
+  margin: 10px 30px;
+  font-size: 20px;
+  font-family: 
+    Courier New, 
+    monospace;
+  font-weight: bold;
+  color: #444;
+  background: #e1e0c8;
+  box-shadow: 
+    -1px -2px 2px #c4bca3,
+    inset 1px 2px 3px #eeeeee,
+    inset -1px -2px 3px #c4bca3,
+    2px 6px 16px rgba(0,0,0,0.5);
+  transition: all 0.2s;
+}
+.pannel button:active, .pannel button.activated,
+.floor button:active, .floor button.activated {
+  color: #4565c3;
+  box-shadow: 
+    -1px -2px 2px #c4bca3,
+    inset 1px 2px 3px #eeeeee,
+    inset -1px -2px 3px #c4bca3,
+    1px 2px 12px rgba(0,0,0,0.5);
+}
+.floor button {
+  float: right;
+}

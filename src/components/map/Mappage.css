@@ -1,0 +1,297 @@
+
+.map-page {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: -moz-hidden-unscrollable;
+  }
+  
+  .map-content {
+    display: grid;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 2rem;
+  }
+  
+  .map-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #46c1f2; /* Azul principal */
+  }
+  
+  .edificios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .building {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Color de fondo de los edificios */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;    
+  }
+  
+  .buildingimg{
+    width: 150px ;
+    height: 150px;
+    }
+  /* Posiciones específicas para cada edificio */
+  .building:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .building:nth-child(2) {
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 50%;
+  }
+  
+  .building:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .building:nth-child(4) {
+    grid-column: 3;
+    grid-row: 2;
+    margin-right: 50%;
+  }
+  
+  .building:nth-child(5) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+  .building:nth-child(6) {
+    grid-column: 3;
+    grid-row: 3;
+    margin-left: 50%;
+  }
+  
+  .building:nth-child(7) {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .realmap{
+    position: fixed;
+    width: 500px;
+    margin-top: 20%;
+    border-image: 1rem solid black;
+    padding-left: 2%;
+    z-index: -1;
+  }
+  
+  .card {
+    position: sticky;
+    top: -80px; /* Ajusta esta posición según tus preferencias */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#27509b;
+    width: 180px; /* Ajusta el tamaño de la carta */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.3s ease;
+  }
+  
+  .card.active {
+    opacity: 1;
+  }
+  
+  .card img {
+    height: 150px; /* Ajusta el tamaño de la imagen */
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .description {
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(47, 91, 173, 0.61);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(47, 91, 173, 0.3);
+    transition: 0.3s;
+    opacity: 0; /* Inicialmente invisible */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font: 0.8rem sans-serif;
+  }
+  
+  .building:hover .card,
+  .card:hover {
+    opacity: 1;
+  }
+  
+  .building:hover .description,
+  .card:hover .description {
+    opacity: 1;
+  }
+  
+  .description h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px; /* Ajusta el tamaño del texto */
+    color: white;
+  }
+
+
+  .btn {
+    width: 16rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem rgb(10, 10, 10), -0.2rem -0.2rem 0.5rem #27509b;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .btn__primary {
+    background: #396eaf;
+    box-shadow: inset 0.1rem 0.1rem 1rem white inset -0.2rem -0.2rem 1rem #27509b, 0.3rem 0.3rem 0.6rem #27509b, -0.1rem -0.1rem 0.5rem #002fff;
+    color: var(--greyLight-1);
+  }
+  .btn__primary:hover {
+    color: var(--white);
+  }
+  .btn__primary:active {
+    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark), inset -0.2rem -0.2rem 1rem var(--primary-light);
+  }
+
+.btn__primary{
+  font: 1rem sans-serif;
+}
+
+  /* Estilos para el elemento de texto */
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background: rgba(70, 193, 242, 0.8);
+    opacity: 0; /* Inicialmente invisible */
+    animation: text-fadein 1s ease-out 4s forwards; /* Animación de aparición */
+  }
+  
+
+  /* Animación de aparición del texto */
+  @keyframes text-fadein {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -80%); /* Empieza un poco arriba */
+    }
+    to {
+      opacity: 1;
+      transform: translate(40%, 50%);
+    }
+  }
+  
+
+  
+/* Estilos solo para dispositivos móviles */
+@media screen and (max-width: 720px) {
+
+    .map-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+  }
+
+  .edificios{
+    padding-top: 25%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Ajusta el número de columnas según necesites */
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .building:nth-child(1),
+  .building:nth-child(2),
+  .building:nth-child(3),
+  .building:nth-child(4),
+  .building:nth-child(5),
+  .building:nth-child(6),
+  .building:nth-child(7) {
+    grid-column: 1;
+    grid-row: unset;
+  }
+  .buildings{
+    width: auto !important ;
+  }
+  .buildingimg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .building:hover .card,
+  .card:hover {
+    opacity: 1;
+  }
+
+  .building:hover .description,
+  .card:hover .description {
+    opacity: 1;
+  }
+  .realmap
+  {
+    position: relative;
+    display: flex;
+    z-index: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+  }
+  
+  .text-overlay{
+    position: block;
+    font: 1rem;
+    transform: translate(0%, 0%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    left: 0;
+    top: 0;
+    margin-top: 20%;
+    color: black;
+    font-weight: bold;
+    background: rgba(70, 193, 242, 0.8);
+  }
+
+  .card {
+    width:150px; /* Ocupar todo el ancho *//* Ajusta el padding para dispositivos móviles */
+    top: auto; /* Eliminar la posición superior */
+    bottom: -15px; /* Agregar margen inferior */ /* Resetear la transformación */
+  }
+  
+  .description {
+    font-size: 0.7rem; /* Ajusta el tamaño de la fuente */
+  }
+}

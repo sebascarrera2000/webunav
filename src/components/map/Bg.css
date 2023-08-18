@@ -1,0 +1,92 @@
+
+.page-bg {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: fixed;
+	background-color:#fff;
+	
+	background-image: linear-gradient(white 1px, transparent 1px),
+	linear-gradient(90deg, white 1px, transparent 1px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-position: -1px -1px;
+	background-repeat: repeat-y, repeat-x, repeat, repeat;
+	
+	animation-name: bg-fadein, bg-grid, bg-isometric;
+	animation-duration: 2s, 1s, 1s;
+	animation-delay: 0s, 1s, 2s;
+	animation-fill-mode: both;	
+    z-index: -1;
+}
+
+.cube {
+  background-color: #fff;
+  
+  width: 100px;
+  height: 100px;
+  
+  position: relative;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+  
+  opacity: 0;
+  
+  animation-name: cube-fadein;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+}
+
+/*	==========================================================================
+	 Animations
+	========================================================================== */
+
+
+@keyframes bg-fadein {
+	from { background-color: #fff; }
+	to { background-color: #269; }
+}
+
+@keyframes bg-isometric {
+	from { transform: none; }
+	to { transform: rotateX(67.5deg) rotateZ(45deg) scale(2.5);}
+}
+
+@keyframes bg-grid {
+	0% { background-size:0 100px, 100px 0, 20px 20px, 20px 20px; }
+	50% { background-size:100% 100px, 100px 0, 20px 20px, 20px 20px; }
+	100% { background-size:100% 100px, 100px 100%, 20px 20px, 20px 20px; }
+}
+
+@keyframes cube-fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@media screen and (max-width: 720px) {
+  .page-bg {
+    padding-bottom: 100%; /* Aumentado para adaptarse mejor a dispositivos móviles */
+    animation-duration: 2s, 1s, 1s;
+    animation-delay: 0s, 0.5s, 1s; /* Ajustado el retraso para una mejor sincronización */
+  }
+
+  .cube {
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 12.5px); /* Ajustado para centrar el cubo en dispositivos móviles */
+    top: calc(50% - 12.5px);
+  }
+
+  @keyframes bg-grid {
+    0% {
+      background-size: 0 50px, 50px 0, 20px 20px, 20px 20px;
+    }
+    50% {
+      background-size: 100% 50px, 50px 0, 20px 20px, 20px 20px;
+    }
+    100% {
+      background-size: 100% 50px, 50px 100%, 20px 20px, 20px 20px;
+    }
+  }
+}

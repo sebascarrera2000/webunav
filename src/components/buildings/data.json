@@ -1,0 +1,501 @@
+{
+    "Madre Caridad": {
+      "floors": [
+        {
+          "name": "0",
+          "rooms": [
+            "Programa de Comunicación Social",
+            "Archivo Institucional",
+            "Cafetería",
+            "Admisiones Registro y Control Académico",
+            "Baterías Sanitarias"
+          ]
+        },
+        {
+          "name": "1",
+          "rooms": [
+            "Información, Relaciones Públicas y Mercadeo",
+            "Biblioteca",
+            "Secretaría General",
+            "Capilla San José",
+            "Rectoría",
+            "Secretaría de Rectoría",
+            "Vicerrectoría Administrativa y Financiera",
+            "Pagaduría",
+            "Kardex y Presupuesto",
+            "Vicerrectoría Académica",
+            "Cartera y Crédito Icetex",
+            "Gestión Humana",
+            "Jefatura de Gestión Humana",
+            "Coordinación Seguridad y Salud en el Trabajo",
+            "Exámenes Médicos y Ocupacionales",
+            "Centro de Investigaciones Dirección",
+            "Proyecciones Centro de Investigación",
+            "Planeación y Desarrollo",
+            "Auditoría Interna",
+            "Coordinación Editorial Unimar",
+            "Baterías Sanitarias"
+          ]
+        },
+        {
+          "name": "2",
+          "rooms": [
+            "Facultad de Educación",
+            "Sala de Docentes Programa de Enfermería y Terapia Ocupacional",
+            "Sala Múltiple I y II",
+            "Fondo de Empleados Unimar",
+            "Facultad Ciencias Contables y Administrativas",
+            "Sala de Docentes Ciencias Económicas y Administrativas",
+            "Secretaría Programa de Contaduría Pública e Investigación de la Facultad",
+            "Dirección Programa de Contaduría Pública",
+            "Sala de Docentes Programa de Contaduría Pública",
+            "Oficina de Asesoría e Investigación",
+            "Dirección Programa de Administración de Negocios Internacionales",
+            "Secretaría Programa de Administración de Negocios Internacionales y Mercadeo por Ciclos Propedéuticos",
+            "Decanatura Ciencias Contables y Administrativas",
+            "Editorial Unimar",
+            "Aula 202",
+            "Aula 203",
+            "Aula 204",
+            "Aula 205",
+            "Aula 206",
+            "Aula 207",
+            "Aula 208",
+            "Aula 209",
+            "Aula 210",
+            "Aula 211",
+            "Aula 212",
+            "Baterías Sanitarias"
+          ]
+        }
+      ]
+    },
+    "Santa Clara": {
+        "floors": [
+        {
+            "name": "0",
+            "rooms": [
+            "Fotocopiadora",
+            "Almacén",
+            "Sala de Teatro",
+            "Centro de Atención Integral",
+            "Asesoría Académica y Pedagógica Programa de Enfermería",
+            "Baterías Sanitarias"
+            ]
+        },
+        {
+            "name": "1",
+            "rooms": [
+            "Decanatura Facultad de Ciencias de la Salud",
+            "Centro de Educación Para el Trabajo y Desarrollo Humano",
+            "Dirección Programa de Terapia Ocupacional",
+            "Sala de Docentes Programa de Terapia Ocupacional",
+            "Dirección Programa de Auxiliares de Enfermería",
+            "Dirección Programa de Regencia en Farmacia",
+            "Dirección Programa de Enfermería",
+            "Dirección Programa de Fisioterapia",
+            "Sala de Docentes Fisioterapia",
+            "Sala de Docentes Programa de Auxiliares de Enfermería y Regencia de Farmacia",
+            "Centro de Entrenamiento Internacional de Simulación Clínica",
+            "Laboratorio de Microbiología y Biología",
+            "Salas de Proyección 110",
+            "Salas de Proyección 114",
+            "Salas de Proyección 115",
+            "Baterías Sanitarias"
+            ]
+        },
+        {
+            "name": "2",
+            "rooms": [
+            "Centro de Recursos Educativos",
+            "Auditórium Madre Caridad Brader",
+            "Salas de Proyección 202",
+            "Salas de Proyección 203",
+            "Salas de Proyección 204",
+            "Salas de Proyección 205",
+            "Baterías Sanitarias"
+            ]
+        }
+        ]
+    },
+    "San Francisco": {
+        "floors": [
+          {
+            "name": "0",
+            "rooms": [
+              "Laboratorio de Fotografía",
+              "Sala de Proyección 004",
+              "Aula 005",
+              "Bodega",
+              "Papelería",
+              "Tienda",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "1",
+            "rooms": [
+              "Dirección Programa de Fisioterapia",
+              "Dirección Programa de Radiodiagnóstico y Radioterapia",
+              "Laboratorio de Radiodiagnóstico y Radioterapia",
+              "Auditorio Pedro Schumacher",
+              "Aula 102",
+              "Aula 103",
+              "Aula 105"
+            ]
+          },
+          {
+            "name": "2",
+            "rooms": [
+              "Revisoría Fiscal",
+              "Programa de nutrición y dietético",
+              "Dirección y Secretaria Programa de Nutrición y Dietética",
+              "Taller de Dinámica de Grupo (204)",
+              "Aula 202",
+              "Aula 203",
+              "Aula 205",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "3",
+            "rooms": [
+              "Dirección Programa de Psicología",
+              "Sala de Docentes Programa de Psicología",
+              "Secretaría Programa de Psicología",
+              "Cámara de Gessel",
+              "Aula 302",
+              "Aula 303",
+              "Baterías Sanitarias"
+            ]
+          }
+        ]
+    },
+    "San Buenaventura": {
+        "floors": [
+          {
+            "name": "1",
+            "rooms": [
+              "Facultad de Posgrados y Relaciones Internacionales",
+              "Secretaría",
+              "Decanatura",
+              "Oficina de Coordinación de Maestrías y Especializaciones",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "2",
+            "rooms": [
+              "Sala de Docentes Investigadores de la Facultad de Posgrados y Relaciones Internacionales",
+              "Aula 201",
+              "Aula 202",
+              "Aula 203",
+              "Aula 204",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "3",
+            "rooms": [
+              "Laboratorio de Desarrollo Ingeniería de Sistemas (301)",
+              "Sala de Reunión de Posgrados (302)",
+              "Jóvenes Investigadores Gismar (303)",
+              "Docentes Investigadores de Posgrados (304)",
+              "Maestría en Administración en salud (305)",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "4",
+            "rooms": [
+              "Terapia Ocupacional (401)",
+              "Ingeniería Civil (402)",
+              "Derecho (403)",
+              "Jóvenes Investigadores Programa de Administración (404)",
+              "Oficina de investigación programa de administración",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "A1",
+            "rooms": [
+              "Unidad de Radio y Televisión",
+              "Unidad de Educación Virtual (102)",
+              "Aula 103"
+            ]
+          },
+          {
+            "name": "A2",
+            "rooms": [
+              "Salas Audiovisuales 1",
+              "Salas Audiovisuales 2",
+              "Salas Audiovisuales 3"
+            ]
+          }
+        ]
+    },
+    "Jesús de Nazareth": {
+        "floors": [
+          {
+            "name": "0",
+            "rooms": [
+              "Salón de Música",
+              "Centro de Asesoría Psicológica",
+              "Laboratorio de Autonomía e Independencia",
+              "Consultorio Médico",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "1",
+            "rooms": [
+              "Pastoral Universitaria",
+              "Auditorio Jesús de Nazaret",
+              "Asesoría Espiritual",
+              "Servicios Operacionales",
+              "Bienestar Universitario Docentes",
+              "Vicerrectoría y Secretaria de Bienestar Universitario",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "2",
+            "rooms": [
+              "Aula 201",
+              "Aula 202",
+              "Aula 203",
+              "Aula 204",
+              "Aula 205",
+              "Aula 206",
+              "Aula 207",
+              "Aula 208",
+              "Aula 209",
+              "Dirección Programa de Trabajo Social",
+              "Sala de Docentes Programa de Trabajo Social",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "3",
+            "rooms": [
+              "Aula 301",
+              "Aula 302",
+              "Aula 303",
+              "Aula 304",
+              "Aula 305",
+              "Aula 306",
+              "Aula 307",
+              "Aula 308",
+              "Aula 309",
+              "Aula 310",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "4",
+            "rooms": [
+              "Aula 401",
+              "Aula 402",
+              "Aula 403",
+              "Aula 404",
+              "Aula 405",
+              "Aula 406",
+              "Aula 407",
+              "Aula 408",
+              "Aula 409",
+              "Aula 410",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "5",
+            "rooms": [
+              "Aula 501",
+              "Aula 502",
+              "Aula 503",
+              "Aula 504",
+              "Aula 505",
+              "Aula 506",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "6",
+            "rooms": [
+              "Aula 601",
+              "Aula 601A",
+              "Aula 602",
+              "Aula 603",
+              "Aula 604",
+              "Aula 605",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "7",
+            "rooms": [
+              "Laboratorio Bienestar Universitario"
+            ]
+          }
+        ]
+    },
+    "María Inmaculada": {
+          "floors": [
+            {
+              "name": "1",
+              "rooms": [
+                "Coordinación Semilleros de Investigación",
+                "Investigación Ingeniería Ambiental",
+                "Aula 103",
+                "Aula 104",
+                "Aula 105",
+                "Aula 106",
+                "Aula 107",
+                "Baterías Sanitarias"
+              ]
+            },
+            {
+              "name": "2",
+              "rooms": [
+                "Facultad de Ingeniería",
+                "Dirección Programa de Ingeniería Ambiental",
+                "Dirección Programa de Ingeniería de Sistemas",
+                "Dirección Programa de Ingeniería de Procesos",
+                "Dirección Programa de Automatización Electrónica",
+                "Aula de Informática",
+                "Laboratorio Contable"
+              ]
+            },
+            {
+              "name": "3",
+              "rooms": [
+                "Sala de Docentes Programa de Ingeniería de Sistemas",
+                "Oficina de Industria Mariana de Software IMSOFT",
+                "Centro de Servicios Informáticos",
+                "Coordinación de Investigación del Programa de Ingeniería de Sistemas",
+                "Laboratorio de Idiomas",
+                "Departamento de Matemática y Estadística",
+                "Sala de Docentes Programa de Nutrición y Dietética",
+                "Sala de Profesores Ingeniería Ambiental",
+                "Sala de Informática",
+                "Baterías Sanitarias"
+              ]
+            },
+            {
+              "name": "4",
+              "rooms": [
+                "Laboratorio Contable",
+                "Laboratorio de Redes",
+                "Laboratorio de Bases de Datos",
+                "Aula Virtual (RENATA)",
+                "Aula de Informática",
+                "Dirección Departamento de Tecnología"
+              ]
+            },
+            {
+              "name": "5",
+              "rooms": [
+                "Tres Salas de Prácticas e Internet",
+                "Laboratorio de Sistemas Operativos",
+                "Coordinación Salas de Informática y Monitores",
+                "Asesoría de Investigación",
+                "Baterías Sanitarias"
+              ]
+            },
+            {
+              "name": "6",
+              "rooms": [
+                "Coordinación Red Local",
+                "Laboratorio de Programación",
+                "Aula de Informática",
+                "Aula de Prácticas Contables"
+              ]
+            }
+          ]
+    },
+    "San José": {
+        "floors": [
+          {
+            "name": "0",
+            "rooms": [
+              "Salón de danzas",
+              "Área de recreación",
+              "Cuarto de control eléctrico",
+              "Parqueadero de Bicicletas y Motos",
+              "Baterías Sanitarias",
+              "Zona de jardín"
+            ]
+          },
+          {
+            "name": "1",
+            "rooms": [
+              "Decanatura de Humanidades y Ciencias Sociales (101)",
+              "Secretaria de Decanatura",
+              "Aula 102",
+              "Salón de Música (103)",
+              "Auditorio San José",
+              "Cuarto de aseo",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "2",
+            "rooms": [
+              "Programa de Derecho",
+              "Sala Docentes de Derecho",
+              "Coordinador de Exámenes Preparatorios",
+              "Coordinación de Investigación",
+              "Sala de Reuniones",
+              "Baterías Sanitarias",
+              "Cuarto de Aseo"
+            ]
+          },
+          {
+            "name": "3",
+            "rooms": [
+              "Aula 301",
+              "Aula 302",
+              "Aula 303",
+              "Coordinación Departamento de Idiomas",
+              "Sala de Docentes de Idiomas",
+              "Departamento de Humanidades",
+              "Unidad de Emprendimiento",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "4",
+            "rooms": [
+              "Aula 401",
+              "Aula 402",
+              "Aula 403",
+              "Aula 404",
+              "Aula 405",
+              "Aula 406",
+              "Aula 407",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "5",
+            "rooms": [
+              "Aula 501",
+              "Aula 502",
+              "Aula 503",
+              "Aula 504",
+              "Aula 505",
+              "Aula 506",
+              "Aula 507",
+              "Baterías Sanitarias"
+            ]
+          },
+          {
+            "name": "6",
+            "rooms": [
+              "Sala de Reuniones Bienestar Universitario"
+            ]
+          }
+        ]
+     }
+}
+  

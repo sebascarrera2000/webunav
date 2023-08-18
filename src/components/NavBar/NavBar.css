@@ -1,0 +1,113 @@
+/* Navbar.css */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(-45deg,#009ada,#396eaf,#27509b);/* Color azul principal */
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo-img {
+    width: 50px; /* Ajusta el tamaño según tus preferencias */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo e información del navbar */
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #46c1f2; /* Color azul acentuado */
+  }
+  
+  /* Estilos para el menú responsivo */
+  
+  @media screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #27509b;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-list.open {
+      display: flex;
+    }
+  
+    .nav-item {
+      margin: 0;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .nav-link {
+      padding: 10px;
+      border-bottom: 1px solid #ffffff33; /* Color blanco con transparencia */
+    }
+  
+    .nav-link:last-child {
+      border-bottom: none;
+    }
+  }
+  

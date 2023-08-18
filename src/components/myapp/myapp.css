@@ -1,0 +1,103 @@
+
+
+.backgroundm{
+    background-image: url(https://cdn.discordapp.com/attachments/1141474429990359161/1141576512282312755/Diseno_sin_titulo_3.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    position: fixed; 
+}
+
+.myAppS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  .content-myapp {
+    background-color: white;
+    margin-right: 5%;
+    margin-left: 2%;
+    text-align: center;  
+    padding-bottom: 10px;  
+    border-radius: 10px;
+  }
+  
+  .titleh {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #46c1f2; /* Azul principal */
+  }
+  
+  .descriptiona {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    color: #333333; /* Texto gris oscuro */
+  }
+  
+  .instrutitulo{
+    color: #46c1f2;;
+    font-weight: bold ;
+  }
+
+  .gallery-image{
+    width: 20%;
+    
+  }
+ 
+
+  .download-button {
+    background-color: #46c1f2;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 8px; /* Añadido para darle esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadido para dar sombra */
+  }
+  
+  .download-button:hover {
+    background-color: #369dc7;
+  }
+  
+
+  /* Media queries para dispositivos pequeños */
+  @media (max-width: 768px) {
+    .myAppS {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content-myapp {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 80%;
+      height: 40%;
+      justify-content: center;
+    }
+  
+    .gallery-image{
+        width: 50%; 
+        justify-content: center; 
+    }
+    image-gallery{
+       justify-content: center;
+    }
+    .image-container{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
