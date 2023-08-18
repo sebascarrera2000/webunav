@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // Asegúrate de importar el archivo de estilos CSS
+import './NavBar.css'; // Asegúrate de importar el archivo de estilos CSS
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
