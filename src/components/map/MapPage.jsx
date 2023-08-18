@@ -3,7 +3,7 @@ import  {useState} from 'react';
 import { Link } from "react-router-dom";
 import './Mappage.css';
 import Navbar from '../NavBar/NavBar';
-import { Bg } from './bg';
+import { Bg } from './Bg';
 
 const buildingInfo = {
   'San Jose': {
