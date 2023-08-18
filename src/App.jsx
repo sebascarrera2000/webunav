@@ -12,7 +12,7 @@ import SanFrancisco from './components/buildings/SanFrancisco';
 import SantaClara from './components/buildings/SantaClara';
 import MadreCaridad from './components/buildings/MadreCaridad'
 import MyApp from './components/myapp/MyApp';
-import Owner from './components/owner/owner';
+import Owner from './components/owner/Owner';
 
 const router = createBrowserRouter([
   {
