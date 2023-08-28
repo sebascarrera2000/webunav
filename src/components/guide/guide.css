@@ -10,9 +10,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    gap: 10px;
+    margin-bottom: 5px;
   }
   
   .search-bar {
@@ -109,10 +108,6 @@
     border: 2px solid #007bff;
     display: flex;
     justify-content: center;
-}
-
-.route-video video{
-
 }
   .route-image {
     width: 100%;
