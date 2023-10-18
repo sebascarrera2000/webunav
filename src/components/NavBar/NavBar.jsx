@@ -30,7 +30,7 @@ function Navbar() {
             <Link to="/map" className="nav-link">Explorar</Link>
           </li>
           <li className="nav-item">
-            <Link to="/guide" className="nav-link">Guiame</Link>
+            <Link to="/myApp" className="nav-link">App</Link>
           </li>
           <li className="nav-item">
             <Link to="/owner" className="nav-link">Owner</Link>

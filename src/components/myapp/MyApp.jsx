@@ -57,8 +57,7 @@ function MyApp() {
             ¡Descubre fácilmente las entradas a edificios en la Universidad Mariana con nuestra nueva app! Olvídate de la confusión al llegar a un lugar nuevo. Simplemente ingresa el nombre del edificio o selecciona en el mapa 2D y te guiaremos directo a la entrada. ¡Y eso no es todo! También ofrecemos navegación en tiempo real mediante Realidad Aumentada (AR), mostrando flechas y direcciones en la cámara de tu dispositivo. ¡No más búsquedas perdidas, solo direcciones claras a donde necesitas ir en tu campus!
             </p>
             <a
-                href="/aplicacion/UMNAV.apk"
-                download="Aplicacion"
+                href="https://www.mediafire.com/file/mul27fvhg49lcg0/Umnav.apk/file"
                 className="download-button"
               >
                 Descargar
@@ -92,6 +91,13 @@ function MyApp() {
                         >
                         {">"}
                         </motion.button>
+                        <p>Pruebala y Porfavor llena esta encuesta </p> 
+                        <a
+                        href="https://forms.gle/qucYPjhCUNaNeTBG8"
+                        className="download-button"
+                      >
+                        Formulario 📋
+                      </a>
                     </div>
 </div>
         </motion.div>

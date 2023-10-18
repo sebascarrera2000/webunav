@@ -12,7 +12,8 @@ import SanFrancisco from './components/buildings/SanFrancisco';
 import SantaClara from './components/buildings/SantaClara';
 import MadreCaridad from './components/buildings/MadreCaridad'
 import Owner from './components/owner/Owner';
-import Guide from './components/guide/Guide';
+import MyApp from './components/myapp/MyApp';
+
 
 const router = createBrowserRouter([
   {
@@ -56,8 +57,8 @@ const router = createBrowserRouter([
     element: <MadreCaridad/>
   },
   {
-    path: "guide",
-    element: <Guide/>
+    path: "myApp",
+    element: <MyApp/>
   },
   {
     path: "owner",
